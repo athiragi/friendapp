@@ -7,10 +7,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <div>
        <BrowserRouter>
        <Routes>
-         <Route path='/' exact element={<Friend/>}/>
+         <Route path="/" exact element={<Friend/>}/>
 
        </Routes>
        </BrowserRouter>
